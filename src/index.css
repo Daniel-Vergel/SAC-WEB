@@ -17,3 +17,12 @@
     src: url('Font/Roboto-Regular.ttf') format('truetype'); 
   }
 
+  
+  @font-face {
+    font-family: 'verdana'; 
+    src: url('Font/verdana.ttf') format('truetype'); 
+  }
+
+  
+
+

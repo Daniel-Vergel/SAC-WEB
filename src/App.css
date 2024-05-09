@@ -1,0 +1,9 @@
+.scrollbar-w-2::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .scrollbar1::-webkit-scrollbar-thumb {
+    background-color: #70be2f; /* Color de fondo de la barra de desplazamiento */
+    border-radius: 20px; /* Radio de borde de la barra de desplazamiento */
+    height: 20px; /* Altura de la barra de desplazamiento */
+  }

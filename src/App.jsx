@@ -1,6 +1,10 @@
 
 import './App.css'
+
 import { Frame1014 } from './frame1014'
+import { Frame990 } from './frame990'
+
+
 
 
 function App() {
@@ -26,7 +30,9 @@ function App() {
                     </div>
            </div>
       </nav>
-      <Frame1014/>  
+      <Frame1014/> 
+
+      <Frame990/>   
       <nav className=' fixed flex w-204 h-full bg-slate-900'>
         <div>
 
