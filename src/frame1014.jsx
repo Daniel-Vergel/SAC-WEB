@@ -6,7 +6,7 @@ export const Frame1014 = () => {
   return (
     <>
       {/*frame 1014*/}
-      <div className=' absolute grid w-1297 h-296 ml-56 mt-6 '>
+      <div className=' absolute grid w-1297 h-296 ml-56  '>
 
         {/*frame 1003*/}
         <div className='absolute grid w-546 h-168 '>

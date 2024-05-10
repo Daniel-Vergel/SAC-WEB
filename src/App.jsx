@@ -1,11 +1,12 @@
 
 import './App.css'
+import { ReportedeEfectividad } from './ReportedeEfectividad'
 
 import { Frame1014 } from './frame1014'
 import { Frame990 } from './frame990'
 
 
-
+ReportedeEfectividad
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
            </div>
       </nav>
       <Frame1014/> 
-
+      <ReportedeEfectividad/> 
       <Frame990/>   
       <nav className=' fixed flex w-204 h-full bg-slate-900'>
         <div>

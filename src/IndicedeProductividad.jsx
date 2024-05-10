@@ -32,7 +32,7 @@ export const IndicedeProductividad = () => {
   return (
         <>
         {/*frame 973*/}
-        <div className='grid absolute w-367 h-282 border-l border-r border-t border-b rounded-10 border-gray3'>
+        <div className='grid absolute w-367 h-282  border-l border-r border-t border-b rounded-10 border-gray3'>
 
             {/*frame 1117*/}
                 <div className=' grid w-347 h-32 ml-10 mt-10   '>
@@ -52,7 +52,7 @@ export const IndicedeProductividad = () => {
                     {/*Chart Graphic*/}
                         <div className='flex w-125 h-125 '>
 
-                        <PieChart className='  ' width={160} height={160}  style={{ transform: 'scaleX(-1)' }}>   
+                        <PieChart className='  ' width={160} height={162}  style={{ transform: 'scaleX(-1)' }}>   
                             <Pie data={data01} dataKey="value" nameKey="name" cx="50%" cy="34%" innerRadius={57} outerRadius={80} fill="#82ca9d"  stroke="transparent">
                                 {
                                     data01.map((entry, index) => (
@@ -99,7 +99,7 @@ export const IndicedeProductividad = () => {
                         {/*frame 12*/}
                             <div className=' grid grid-flow-col w-186 h-19 font-trebuchet text-14 text-gray2'>
 
-                                    <div class=" absolute translate-y-2 w-14 h-14 rounded-full bg-blue4"></div>
+                                    <div className=" absolute translate-y-2 w-14 h-14 rounded-full bg-blue4"></div>
 
                                     <div className='  grid justify-end w-142 h-19 '>
                                         Escalados a Coord.                                       
@@ -113,7 +113,7 @@ export const IndicedeProductividad = () => {
                         {/*frame 10*/}
                             <div className=' grid grid-flow-col w-186 h-19 font-trebuchet text-14 text-gray2'>
                                     
-                                    <div class=" absolute translate-y-2 w-14 h-14 rounded-full bg-cyan3"></div>
+                                    <div className=" absolute translate-y-2 w-14 h-14 rounded-full bg-cyan3"></div>
 
                                     <div className=' grid w-142 h-19  tracking-1  '>
                                         <p className='ml-6'>En proceso </p>
@@ -127,7 +127,7 @@ export const IndicedeProductividad = () => {
                         {/*frame 13*/}
                             <div className=' grid grid-flow-col w-186 h-19 font-trebuchet text-14 text-gray2'>
                                     
-                                    <div class=" absolute translate-y-2 w-14 h-14 rounded-full bg-orange2"></div>
+                                    <div className=" absolute translate-y-2 w-14 h-14 rounded-full bg-orange2"></div>
 
                                     <div className='grid w-142  h-19   '>
                                         <p className='ml-6'>En espera </p>                                      
@@ -141,7 +141,7 @@ export const IndicedeProductividad = () => {
                         {/*frame 14*/}
                             <div className=' grid grid-flow-col w-186 h-19 font-trebuchet text-14 text-gray2'>
                                     
-                                    <div class=" absolute translate-y-2 w-14 h-14 rounded-full bg-green3"></div>
+                                    <div className=" absolute translate-y-2 w-14 h-14 rounded-full bg-green3"></div>
 
                                     <div className=' w-142  h-19  tracking-1  '>
                                         <p className='ml-6'>Resueltos </p>                                        
